@@ -1,0 +1,34 @@
+{
+  "albaApp": {
+    "albaRefugee": {
+      "home": {
+        "title": "Refugees",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Refugee",
+        "createOrEditLabel": "Crear o editar Refugee",
+        "notFound": "Ningún Refugees encontrado"
+      },
+      "created": "Un nuevo Refugee ha sido creado con el identificador {{ param }}",
+      "updated": "Un Refugee ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Refugee ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Refugee {{ id }}?"
+      },
+      "detail": {
+        "title": "Refugee"
+      },
+      "id": "ID",
+      "qrcodeUUID": "Qrcode UUID",
+      "educationalLevel": "Educational Level",
+      "mandatoryTutored": "Mandatory Tutored",
+      "birthDate": "Birth Date",
+      "disabledPerson": "Disabled Person",
+      "religion": "Religion",
+      "gender": "Gender",
+      "personalInformation": "Personal Information",
+      "primaryOccupation": "Primary Occupation",
+      "legalSurvey": "Legal Survey",
+      "medicalSurvey": "Medical Survey"
+    }
+  }
+}

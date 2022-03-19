@@ -84,6 +84,23 @@ public class CacheConfiguration {
             createCache(cm, org.code4refugees.cri.alba.domain.User.class.getName(), jcacheConfiguration);
             createCache(cm, org.code4refugees.cri.alba.domain.Authority.class.getName(), jcacheConfiguration);
             createCache(cm, org.code4refugees.cri.alba.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Region.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Country.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Location.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.CheckPoint.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Refugee.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Operator.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.EventType.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.FamilyRelation.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Event.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Registration.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Registration.class.getName() + ".events", jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Person.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Job.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.MedicalSurvey.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.LegalSurvey.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.Attachment.class.getName(), jcacheConfiguration);
+            createCache(cm, org.code4refugees.cri.alba.domain.AttachmentCategory.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }

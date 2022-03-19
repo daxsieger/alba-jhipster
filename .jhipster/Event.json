@@ -1,0 +1,65 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180032",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "event",
+  "fields": [
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "timestamp",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "urgencyOfMedicalTreatment",
+      "fieldType": "TreatmentPriority",
+      "fieldValues": "BLACK,RED,YELLOW,GREEN,WHITE"
+    },
+    {
+      "fieldName": "needForLegalAssistance",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "legalConsent will be a base64 BLOB with the\\nwritten authorization of the refugee to the\\nregistration itself",
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "Event",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "eventType",
+      "otherEntityRelationshipName": "event",
+      "ownerSide": true,
+      "relationshipName": "category",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "checkPoint",
+      "otherEntityRelationshipName": "event",
+      "ownerSide": true,
+      "relationshipName": "checkPoint",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "operator",
+      "otherEntityRelationshipName": "event",
+      "ownerSide": true,
+      "relationshipName": "operator",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "registration",
+      "otherEntityRelationshipName": "events",
+      "relationshipName": "registration",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

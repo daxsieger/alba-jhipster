@@ -1,0 +1,32 @@
+{
+  "albaApp": {
+    "albaPerson": {
+      "home": {
+        "title": "People",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Person erstellen",
+        "createOrEditLabel": "Person erstellen oder bearbeiten",
+        "notFound": "Keine People gefunden"
+      },
+      "created": "Person erstellt mit ID {{ param }}",
+      "updated": "Person aktualisiert mit ID {{ param }}",
+      "deleted": "Person gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Person {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Person"
+      },
+      "id": "ID",
+      "personalIdentifier": "Personal Identifier",
+      "identifierType": "Identifier Type",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "firstSpokenLanguage": "First Spoken Language",
+      "secondSpokenLanguage": "Second Spoken Language",
+      "comingFrom": "Coming From"
+    }
+  }
+}

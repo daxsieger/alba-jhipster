@@ -1,0 +1,61 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180034",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "person",
+  "fields": [
+    {
+      "fieldName": "personalIdentifier",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "identifierType",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstSpokenLanguage",
+      "fieldType": "Language",
+      "fieldValues": "FRENCH,ENGLISH,SPANISH,RUSSIAN,UKRAINIAN,POLISH,GERMAN,ITALIAN,PORTOGUESE"
+    },
+    {
+      "fieldName": "secondSpokenLanguage",
+      "fieldType": "Language",
+      "fieldValues": "FRENCH,ENGLISH,SPANISH,RUSSIAN,UKRAINIAN,POLISH,GERMAN,ITALIAN,PORTOGUESE"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "Person",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "location",
+      "otherEntityRelationshipName": "person",
+      "ownerSide": true,
+      "relationshipName": "comingFrom",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

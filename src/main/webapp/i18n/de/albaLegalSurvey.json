@@ -1,0 +1,26 @@
+{
+  "albaApp": {
+    "albaLegalSurvey": {
+      "home": {
+        "title": "Legal Surveys",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Legal Survey erstellen",
+        "createOrEditLabel": "Legal Survey erstellen oder bearbeiten",
+        "notFound": "Keine Legal Surveys gefunden"
+      },
+      "created": "Legal Survey erstellt mit ID {{ param }}",
+      "updated": "Legal Survey aktualisiert mit ID {{ param }}",
+      "deleted": "Legal Survey gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Legal Survey {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Legal Survey"
+      },
+      "id": "ID",
+      "notes": "Notes",
+      "issues": "Issues",
+      "attachment": "Attachment"
+    }
+  }
+}

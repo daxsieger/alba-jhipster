@@ -1,0 +1,25 @@
+{
+  "albaApp": {
+    "albaCheckPoint": {
+      "home": {
+        "title": "Check Points",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Check Point",
+        "createOrEditLabel": "Crear o editar Check Point",
+        "notFound": "Ningún Check Points encontrado"
+      },
+      "created": "Un nuevo Check Point ha sido creado con el identificador {{ param }}",
+      "updated": "Un Check Point ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Check Point ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Check Point {{ id }}?"
+      },
+      "detail": {
+        "title": "Check Point"
+      },
+      "id": "ID",
+      "friendlyname": "Friendlyname",
+      "location": "Location"
+    }
+  }
+}

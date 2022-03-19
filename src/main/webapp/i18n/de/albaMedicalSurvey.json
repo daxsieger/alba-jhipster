@@ -1,0 +1,26 @@
+{
+  "albaApp": {
+    "albaMedicalSurvey": {
+      "home": {
+        "title": "Medical Surveys",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Medical Survey erstellen",
+        "createOrEditLabel": "Medical Survey erstellen oder bearbeiten",
+        "notFound": "Keine Medical Surveys gefunden"
+      },
+      "created": "Medical Survey erstellt mit ID {{ param }}",
+      "updated": "Medical Survey aktualisiert mit ID {{ param }}",
+      "deleted": "Medical Survey gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Medical Survey {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Medical Survey"
+      },
+      "id": "ID",
+      "ongoingIllnesses": "Ongoing Illnesses",
+      "ongoingTreatments": "Ongoing Treatments",
+      "attachment": "Attachment"
+    }
+  }
+}
