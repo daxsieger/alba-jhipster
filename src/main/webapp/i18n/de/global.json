@@ -7,6 +7,22 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entitäten",
+        "albaRegion": "Region",
+        "albaCountry": "Country",
+        "albaLocation": "Location",
+        "albaCheckPoint": "Check Point",
+        "albaRefugee": "Refugee",
+        "albaOperator": "Operator",
+        "albaEventType": "Event Type",
+        "albaFamilyRelation": "Family Relation",
+        "albaEvent": "Event",
+        "albaRegistration": "Registration",
+        "albaPerson": "Person",
+        "albaJob": "Job",
+        "albaMedicalSurvey": "Medical Survey",
+        "albaLegalSurvey": "Legal Survey",
+        "albaAttachment": "Attachment",
+        "albaAttachmentCategory": "Attachment Category",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

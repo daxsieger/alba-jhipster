@@ -1,0 +1,46 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180033",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "registration",
+  "fields": [
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "timestamp",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "legalConsentBlob",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "Registration",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "refugee",
+      "otherEntityRelationshipName": "registration",
+      "ownerSide": true,
+      "relationshipName": "refugee",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "event",
+      "otherEntityRelationshipName": "registration",
+      "relationshipName": "events",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

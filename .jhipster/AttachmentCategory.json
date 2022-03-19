@@ -1,0 +1,23 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180039",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "attachment_category",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "AttachmentCategory",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

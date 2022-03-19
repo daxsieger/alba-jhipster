@@ -1,0 +1,76 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180028",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "refugee",
+  "fields": [
+    {
+      "fieldName": "qrcodeUUID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "educationalLevel",
+      "fieldType": "Edulevel",
+      "fieldValues": "NO_SCHOOL,PRIMARY,SECONDARY,COLLEGE,MASTER"
+    },
+    {
+      "fieldName": "mandatoryTutored",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "birthDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "disabledPerson",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "religion",
+      "fieldType": "Religion",
+      "fieldValues": "CHRISTIAN,MUSLIM,HEBREW,OTHER,ATHEIST,UNKNOWN"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "Gender",
+      "fieldValues": "M,F,A"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "Refugee",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "refugee",
+      "ownerSide": true,
+      "relationshipName": "personalInformation",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "refugee",
+      "relationshipName": "primaryOccupation",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "legalSurvey",
+      "otherEntityRelationshipName": "refugee",
+      "relationshipName": "legalSurvey",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "medicalSurvey",
+      "otherEntityRelationshipName": "refugee",
+      "relationshipName": "medicalSurvey",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,34 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180037",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "legal_survey",
+  "fields": [
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "issues",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "LegalSurvey",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "attachment",
+      "otherEntityRelationshipName": "legalSurvey",
+      "relationshipName": "attachment",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

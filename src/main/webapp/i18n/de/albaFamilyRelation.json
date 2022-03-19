@@ -1,0 +1,27 @@
+{
+  "albaApp": {
+    "albaFamilyRelation": {
+      "home": {
+        "title": "Family Relations",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Family Relation erstellen",
+        "createOrEditLabel": "Family Relation erstellen oder bearbeiten",
+        "notFound": "Keine Family Relations gefunden"
+      },
+      "created": "Family Relation erstellt mit ID {{ param }}",
+      "updated": "Family Relation aktualisiert mit ID {{ param }}",
+      "deleted": "Family Relation gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Family Relation {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Family Relation"
+      },
+      "id": "ID",
+      "notes": "Notes",
+      "relType": "Rel Type",
+      "refugee1": "Refugee 1",
+      "refugee2": "Refugee 2"
+    }
+  }
+}

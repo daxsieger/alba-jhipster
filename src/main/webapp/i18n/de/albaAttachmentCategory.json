@@ -1,0 +1,24 @@
+{
+  "albaApp": {
+    "albaAttachmentCategory": {
+      "home": {
+        "title": "Attachment Categories",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Attachment Category erstellen",
+        "createOrEditLabel": "Attachment Category erstellen oder bearbeiten",
+        "notFound": "Keine Attachment Categories gefunden"
+      },
+      "created": "Attachment Category erstellt mit ID {{ param }}",
+      "updated": "Attachment Category aktualisiert mit ID {{ param }}",
+      "deleted": "Attachment Category gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Attachment Category {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Attachment Category"
+      },
+      "id": "ID",
+      "description": "Description"
+    }
+  }
+}

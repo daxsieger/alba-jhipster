@@ -1,0 +1,28 @@
+{
+  "albaApp": {
+    "albaRegistration": {
+      "home": {
+        "title": "Registrations",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Registration",
+        "createOrEditLabel": "Crear o editar Registration",
+        "notFound": "Ningún Registrations encontrado"
+      },
+      "created": "Un nuevo Registration ha sido creado con el identificador {{ param }}",
+      "updated": "Un Registration ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Registration ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Registration {{ id }}?"
+      },
+      "detail": {
+        "title": "Registration"
+      },
+      "id": "ID",
+      "notes": "Notes",
+      "timestamp": "Timestamp",
+      "legalConsentBlob": "Legal Consent Blob",
+      "refugee": "Refugee",
+      "events": "Events"
+    }
+  }
+}

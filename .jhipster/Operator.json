@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180029",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "operator",
+  "fields": [
+    {
+      "fieldName": "kindOfOperator",
+      "fieldType": "KindOfOperator",
+      "fieldValues": "MEDICAL_DOCTOR,MEDICAL_SPECIALIST,PSYCHOLOGIST,LEGAL_OFFICER"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "Operator",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "operator",
+      "ownerSide": true,
+      "relationshipName": "personalInformation",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

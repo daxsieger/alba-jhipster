@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180031",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "family_relation",
+  "fields": [
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "relType",
+      "fieldType": "FamilyRelationType",
+      "fieldValues": "SON,NEPHEW,SIBLING,PARTNER,PARENT,GRANDPARENT,UNCLE,LEGALTUTOR,TUTORED"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "FamilyRelation",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "refugee",
+      "otherEntityRelationshipName": "familyRelation",
+      "relationshipName": "refugee1",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "refugee",
+      "otherEntityRelationshipName": "familyRelation",
+      "relationshipName": "refugee2",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,28 @@
+{
+  "albaApp": {
+    "albaRegistration": {
+      "home": {
+        "title": "Registrations",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Registration erstellen",
+        "createOrEditLabel": "Registration erstellen oder bearbeiten",
+        "notFound": "Keine Registrations gefunden"
+      },
+      "created": "Registration erstellt mit ID {{ param }}",
+      "updated": "Registration aktualisiert mit ID {{ param }}",
+      "deleted": "Registration gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Registration {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Registration"
+      },
+      "id": "ID",
+      "notes": "Notes",
+      "timestamp": "Timestamp",
+      "legalConsentBlob": "Legal Consent Blob",
+      "refugee": "Refugee",
+      "events": "Events"
+    }
+  }
+}

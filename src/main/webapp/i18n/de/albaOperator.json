@@ -1,0 +1,25 @@
+{
+  "albaApp": {
+    "albaOperator": {
+      "home": {
+        "title": "Operators",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Operator erstellen",
+        "createOrEditLabel": "Operator erstellen oder bearbeiten",
+        "notFound": "Keine Operators gefunden"
+      },
+      "created": "Operator erstellt mit ID {{ param }}",
+      "updated": "Operator aktualisiert mit ID {{ param }}",
+      "deleted": "Operator gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Operator {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Operator"
+      },
+      "id": "ID",
+      "kindOfOperator": "Kind Of Operator",
+      "personalInformation": "Personal Information"
+    }
+  }
+}

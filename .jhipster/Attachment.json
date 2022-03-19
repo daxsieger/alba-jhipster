@@ -1,0 +1,66 @@
+{
+  "applications": "*",
+  "changelogDate": "20220319180038",
+  "clientRootFolder": "Alba",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "attachment",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationTS",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentBlob",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "contentType",
+      "fieldType": "ContentType",
+      "fieldValues": "BLOB,TEXT,CURRENCY,DATE,TIME,NUMBER"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Alba",
+  "name": "Attachment",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "attachmentCategory",
+      "otherEntityRelationshipName": "attachment",
+      "relationshipName": "category",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "refugee",
+      "otherEntityRelationshipName": "attachment",
+      "relationshipName": "refugee",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "operator",
+      "otherEntityRelationshipName": "attachment",
+      "relationshipName": "creator",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "event",
+      "otherEntityRelationshipName": "attachment",
+      "relationshipName": "originalRegistrationRecord",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
